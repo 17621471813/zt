@@ -1,0 +1,81 @@
+.phoneFixed{
+    .fix_wra{
+        position:fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        background:rgb(20, 20, 20);
+        opacity: .6;
+    }
+    .fix_con{
+        position: fixed;
+        width: 70%;
+        height: 36%;
+        background: white;
+        z-index: 1999;
+        top: 40%;
+        left: 15%;
+        .fixed_name{
+             width:80%;
+             margin: 2rem auto;
+             margin-bottom: 1.5rem;
+             text-align: center;
+            .fix_tittle{
+                font-size: 16px;
+                font-weight: 700;
+                margin: .5rem 0;
+            }
+            .fix_word{
+                font-size: 12px;
+            }
+        }
+         .form{
+             display: flex;
+             justify-content: center;
+             form{
+                 width: 100%;
+             input{
+                 margin-left: 10%;
+                 width: 80%;
+                 outline: 0;
+                 border-radius: 40px;
+                 height: 2rem;
+                 border: 1px solid rgba(161, 150, 150, 0.61);
+                text-align: center;
+                  font-size: 10px;
+             }
+            }
+         }
+         .get{
+            width: 80%;
+            height: 2rem;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:rgb(48, 107, 196);
+            outline: 0;
+            border: none;
+            border-radius: 20px;
+            
+        }
+        .say{
+            margin-top: .5rem;
+            width: 60%;
+            margin: 0 auto;
+            span{
+                font-size: 10px;
+            }
+            span:nth-child(1){
+                color:rgb(48, 107, 196);
+            }
+        }
+        .cance{
+            position: absolute;
+            right: .5rem;
+            top: .5rem;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .nav{
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        height: 4rem;
+        border: 1px solid rgb(218, 213, 213);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        background:white;
+        display: flex;
+    
+        .navLeft{
+            width:20%;
+            height: 100%;
+          display: flex;
+          align-items: center;
+          img{
+              width:3rem;
+              height: 3rem;
+              margin-left: 80%;
+            //   margin-top: 10px;
+            margin-top: 0.625rem;
+            margin-left: 0rem;
+          }
+        }
+        .hz{
+           .hz_top {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:5.437rem;
+            height: 1.625rem;
+            background: rgb(248, 239, 239);
+            border-radius: 1.25rem;
+            margin-top:1.75rem;
+           span{
+               font-size: 12px;
+           }
+           }
+           .hz_bottom{
+               margin-top: 0.625rem;
+               z-index: 100;
+               background:white;
+               position: absolute;
+               margin-left: -2.375rem;
+               width: 7.5rem;
+               height:7.5rem;
+               border: 2px solid rgb(197, 187, 187);
+               border-radius: 10px;
+               div{
+                   display: flex;
+                   justify-content: center;
+                   margin: 0.94rem 0;
+                   font-size: 14px;
+                }
+                .adress{
+                    color:red;
+               }
+               .chCity{
+                   margin-top: 20px;
+                   font-size: 14px;
+                   color:rgb(129, 119, 119);
+               }
+           }
+        }
+        .navCont{
+            width:80%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 0.5rem;
+            z-index : 2;
+            li{
+                word-wrap: none;
+            .rou{
+                word-wrap: none;
+                display: inline-block;
+                 padding: 0 ;
+                width: 50px;
+                text-decoration: none;
+                color:black;
+                font-size: 12px;
+            } 
+            .routCor{
+                color:rgb(245, 243, 239);
+            }
+            }
+            .conCor{
+                background-color:rgba(197, 42, 89, 0.712);
+            }
+           
+    
+        }
+        .navRig{
+            // width:20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 5px;
+            li{
+                font-size: 12px;
+               color:rgb(196, 50, 50);
+               span{
+                   margin-left:0.5rem;
+                   font-size: 10px;
+               }
+            }
+        }
+    }
+}

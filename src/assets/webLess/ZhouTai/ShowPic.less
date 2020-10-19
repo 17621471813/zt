@@ -1,0 +1,140 @@
+.pic{
+    position: relative;
+    width: 85%;
+    height: 500px;
+    left:6rem;
+    background: white;
+    top: 20px;
+    .picTop{
+        height: 50px;
+        border-bottom: 1px solid rgb(185, 178, 178);
+        display: flex;
+        align-items: center;
+        .picTop_left{
+            font-size: 20px;
+            font-weight: 700;
+            color: rgba(0,0,0,.65);
+            margin-left: 20px;
+        }
+        .picTop_right{
+            font-weight: 400;
+            font-size: 14px;
+            color: #096dd9;
+            cursor: pointer;
+            margin-left: 100% - 18px;
+        }
+    }
+    // 户型展示
+    .picCon{
+        width: 100%;
+      .picWrap{
+          width: 100%;
+          overflow: hidden;
+          .dlLeft{
+               margin-left: 0;
+               transition: all 1s;
+          }
+          .dlRight{
+              margin-left: -11vw;
+              transition: all 1s;
+          }
+          .butt{
+            position: absolute;
+            margin-top: 150px;
+            width: 100%;
+            li{
+               display: inline-block;
+               width:40px;
+               height:40px;
+               background: rgb(158, 145, 145);
+               color: white;
+               font-size: 40px;
+               text-align: center;
+               border-radius: 50%;
+               margin-left: 1rem;
+            }
+            li:nth-child(2){
+              position: absolute;
+             left: 94%;
+            }
+        }
+        dl{
+            display: flex;
+            align-items: center;
+            width: 118vw;
+            height: 440px;
+            dd{
+                width: 22vw;
+                height: 25.6rem;
+                border: 1px solid rgb(233, 223, 223);
+                box-shadow: 0 0 10px   rgb(180, 172, 172);
+                margin-left: 1.25rem;
+                .hImg{
+                    margin: 0 auto;
+                    width: 20vw;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 90%;
+                        height: 11.3rem;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+                }
+                .hShow{
+                    margin-top: 50px;
+                    span:nth-child(1){
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: rgba(0,0,0,.65);
+                        margin-left:20px;
+                    }
+                    span:nth-child(2){
+                        color:rgb(147, 153, 164);
+                        font-size: 12px;
+                        margin-left: 100%-50px;
+                    }
+                }
+                .hBut{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #f5222d;
+                    margin-top: 8px;
+                    margin-left: 20px;
+               }
+               .button{
+                   margin: 10px 0 10px 20px;
+                .el-button{
+                    color:rgb(237, 113, 12);
+                    border-color:rgb(237, 113, 12);
+                }
+               }
+  
+            }
+            dd:nth-child(3){
+                img{
+                    margin-top: 0px;
+                    width:60%;
+                    height:16.4rem;
+                }
+                
+                .hShow{
+                    margin-top: 8px;
+                }
+
+            }
+            dd:nth-child(4){
+                img{
+                    margin-top: 0px;
+                    width:60%;
+                    height: 14.8rem;
+                }
+                .hShow{
+                    margin-top: 34px;
+                }
+
+            }
+        }
+      }
+    }
+}
