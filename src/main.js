@@ -8,11 +8,16 @@ import router from './router'
 import echarts from 'echarts'
 import Vuex from 'vuex'
 import store from './store/index.js'
+import { Lazyload } from 'vant'
+import { Swipe, SwipeItem } from 'vant'
 
 Vue.use(Vuex)
 Vue.prototype.$echarts = echarts
 Vue.use(ElementUI)
 Vue.config.productionTip = false
+Vue.use(Lazyload)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,11 +1,11 @@
 <template>
     <div class="housemore" id='0'>
         <div  class="houseImg">
-             <el-carousel trigger="click" height="200px">
-      <el-carousel-item v-for="(item, index) in phoneList" :key="index">
-  <img :src=item.url alt="">
-      </el-carousel-item>
-    </el-carousel>
+    <van-swipe :autoplay="3000">
+  <van-swipe-item v-for="(image, index) in phoneList" :key="index">
+    <img v-lazy="image.url" />
+  </van-swipe-item>
+</van-swipe>
         </div>
         <div class="houseName">
          <H6>港中旅和乐小镇</H6>
